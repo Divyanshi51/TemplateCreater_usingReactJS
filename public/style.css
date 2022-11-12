@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid red; */
+}
+
+.App {
+  border: 2px solid silver;
+  width: 500px;
+  margin: 20px auto;
+  min-height: 520px;
+  max-height: fit-content;
+  box-shadow: 0px 2px 10px silver;
+}
+.header{
+  background: linear-gradient(115deg, indigo, rgb(238, 0, 255));
+  color: white;
+  margin: 0;
+  padding: 3%;
+}
+
+.textinput {
+  padding: 2%;
+  border-radius: 5px;
+  width: 80%;
+  margin: 30px 0 0 0;
+}
+
+.card {
+  min-height: 370px;
+  max-height: fit-content;
+  margin-top: 20px;
+  width: 320px;
+  padding: 10px;
+  background: linear-gradient(115deg, indigo, rgb(238, 0, 255));
+  /* margin-top: 20px; */
+  outline: 2px solid green;
+}
+
+.card-container {
+  margin: 10px 0;
+  min-height: 300px;
+  max-height: fit-content;
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Just Another Hand', cursive;
+  letter-spacing: 1px;
+  font-size: xx-large;
+  padding: 3%;
+}
+
+.button {
+  padding: 2%;
+  border-radius: 5px;
+  background: linear-gradient(115deg, indigo, rgb(238, 0, 255));
+  margin-top: 20px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
